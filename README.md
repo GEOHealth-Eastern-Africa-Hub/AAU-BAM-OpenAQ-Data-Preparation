@@ -36,6 +36,7 @@ This repository contains:
 
 The repository follows a standardised layout. Create the following folders in the repository:
 
+```
 AAU-BAM-OpenAQ-Data-Preparation/
 │
 ├── `input/` # Confidential raw BAM CSVs (not committed)  
@@ -43,7 +44,7 @@ AAU-BAM-OpenAQ-Data-Preparation/
 ├── `aau_bam_openaq_formatting.R` # R scripts for data processing
 ├── README.md # This file
 └── .gitignore # To protect raw data and temporary files
-
+```
 
 > The folder structure separates **raw data**, **processing scripts**, and **sample outputs** to maintain confidentiality and reproducibility.
 
